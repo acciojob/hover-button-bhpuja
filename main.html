@@ -1,13 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Submit Button</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submit Button with Hover Effect</title>
+  <style>
+    /* Initial State */
+    #btn {
+      background-color: black;
+      color: white;
+      border-radius: 5px;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    /* Hover State */
+    #btn:hover {
+      background-color: yellow;
+      color: black;
+      border-radius: 30px;
+    }
+  </style>
 </head>
 <body>
-    <!-- Submit Button -->
-    <button id="btn" type="submit">Submit</button>
+  <!-- Submit Button -->
+  <button id="btn" type="submit">Submit</button>
 </body>
 </html>
